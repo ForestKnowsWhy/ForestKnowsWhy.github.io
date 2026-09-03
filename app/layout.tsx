@@ -19,6 +19,9 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Yingwen Tan' }],
   creator: 'Yingwen Tan',
+  verification: {
+    google: '_asaBjepjSIwRti5HaspsAEp8zPWjcQiFxr4TuaiVP4',
+  },
   alternates: {
     canonical: '/',
   },
