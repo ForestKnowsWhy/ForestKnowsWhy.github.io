@@ -36,7 +36,6 @@ export function SiteFrame({ active, children }: { active: PageName; children: Re
       <footer className="site-footer">
         <div className="shell footer-inner">
           <span>© {new Date().getFullYear()} Yingwen Tan</span>
-          <a href="mailto:tanyingwenhaha@gmail.com">tanyingwenhaha@gmail.com</a>
         </div>
       </footer>
     </>

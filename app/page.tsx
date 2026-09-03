@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
-import { Mail } from 'lucide-react';
+import { Contact, FileText, GraduationCap, Mail } from 'lucide-react';
 import { SiteFrame } from '@/components/site-frame';
 
 export const metadata: Metadata = {
@@ -45,10 +45,42 @@ export default function AboutPage() {
             </p>
           </div>
 
-          <a className="email-link" href="mailto:tanyingwenhaha@gmail.com">
-            <Mail aria-hidden="true" size={16} strokeWidth={1.7} />
-            tanyingwenhaha@gmail.com
-          </a>
+          <div className="social-links" aria-label="Academic and professional profiles">
+            <a href="mailto:tanyingwen@ust.hk" aria-label="Email" title="Email">
+              <Mail aria-hidden="true" size={18} strokeWidth={1.7} />
+              <span className="sr-only">Email</span>
+            </a>
+            <a
+              href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=6036299"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="SSRN"
+              title="SSRN"
+            >
+              <FileText aria-hidden="true" size={18} strokeWidth={1.7} />
+              <span className="sr-only">SSRN</span>
+            </a>
+            <a
+              href="https://scholar.google.com/citations?user=cmVNw5UAAAAJ&hl=en"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Google Scholar"
+              title="Google Scholar"
+            >
+              <GraduationCap aria-hidden="true" size={19} strokeWidth={1.7} />
+              <span className="sr-only">Google Scholar</span>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/ying-wen-tan/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="LinkedIn"
+              title="LinkedIn"
+            >
+              <Contact aria-hidden="true" size={18} strokeWidth={1.7} />
+              <span className="sr-only">LinkedIn</span>
+            </a>
+          </div>
         </div>
       </section>
     </SiteFrame>

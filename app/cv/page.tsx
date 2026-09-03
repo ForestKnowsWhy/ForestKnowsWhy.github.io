@@ -40,7 +40,6 @@ export default function CvPage() {
           <div>
             <p className="page-label">Curriculum vitae</p>
             <h1>Academic trajectory</h1>
-            <p>A concise overview of my academic appointments and education.</p>
           </div>
           <div className="cv-actions">
             <a className="primary-link" href="/Yingwen-Tan-CV.pdf" target="_blank">

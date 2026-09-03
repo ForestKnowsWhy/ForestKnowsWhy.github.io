@@ -119,6 +119,7 @@ main {
 .page-label {
   margin: 0 0 12px;
   color: var(--accent);
+  font-family: var(--sans);
   font-size: 0.76rem;
   font-weight: 700;
   letter-spacing: 0.14em;
@@ -204,14 +205,40 @@ h1 {
   color: var(--muted);
 }
 
-.email-link {
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 28px;
+}
+
+.social-links a {
+  width: 42px;
+  height: 42px;
   display: inline-flex;
   align-items: center;
-  gap: 9px;
-  margin-top: 28px;
+  justify-content: center;
   color: var(--accent);
-  font-size: 0.94rem;
-  border-bottom: 1px solid color-mix(in srgb, var(--accent) 35%, transparent);
+  border: 1px solid var(--line);
+  border-radius: 50%;
+}
+
+.social-links a:hover {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
 }
 
 .page-heading {
@@ -299,14 +326,14 @@ h1 {
 
 .working-list {
   padding: 4px 30px;
-  background: var(--accent-soft);
-  border-top: 1px solid #ccd6ce;
-  border-bottom: 1px solid #ccd6ce;
+  background: transparent;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
 }
 
 .working-list article {
   padding: 24px 0 22px;
-  border-bottom: 1px solid #ccd6ce;
+  border-bottom: 1px solid var(--line);
 }
 
 .working-list article:last-child {

@@ -61,8 +61,7 @@ export default function ResearchPage() {
     <SiteFrame active="research">
       <div className="shell page research-page">
         <header className="page-heading">
-          <p className="page-label">Research</p>
-          <h1>Publications &amp; working papers</h1>
+          <h1 className="page-label">Research</h1>
           <p>
             My research focuses on high-frequency statistics, financial econometrics,
             functional data, and market microstructure.
