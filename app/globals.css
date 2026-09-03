@@ -253,10 +253,13 @@ h1 {
   font-size: 1.05rem;
 }
 
-.research-page .page-label,
 .research-page .paper-section > h2 {
   font-size: 1.05rem;
   letter-spacing: 0.08em;
+}
+
+.research-page > .paper-section:first-child {
+  margin-top: 0;
 }
 
 .paper-section {

@@ -60,14 +60,6 @@ export default function ResearchPage() {
   return (
     <SiteFrame active="research">
       <div className="shell page research-page">
-        <header className="page-heading">
-          <h1 className="page-label">Research</h1>
-          <p>
-            My research focuses on high-frequency statistics, financial econometrics,
-            functional data, and market microstructure.
-          </p>
-        </header>
-
         <section className="paper-section" aria-labelledby="publications-title">
           <h2 id="publications-title">Publications</h2>
           <div className="paper-list">
