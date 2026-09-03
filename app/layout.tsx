@@ -3,7 +3,10 @@ import './globals.css';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://forestknowswhy.github.io'),
-  title: 'Yingwen Tan — Financial Econometrics',
+  title: {
+    default: 'Yingwen Tan',
+    template: '%s — Yingwen Tan',
+  },
   description:
     'Yingwen Tan is a postdoctoral fellow at HKUST researching high-frequency statistics, financial econometrics, functional data, and market microstructure.',
   keywords: [
