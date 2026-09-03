@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://forestknowswhy.github.io'),
+  metadataBase: new URL('https://yingwen-tan.tanyingwenhaha.chatgpt.site'),
   title: {
     default: 'Yingwen Tan',
     template: '%s — Yingwen Tan',
@@ -19,6 +19,17 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Yingwen Tan' }],
   creator: 'Yingwen Tan',
+  alternates: {
+    canonical: '/',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
   openGraph: {
     type: 'website',
     locale: 'en_US',
