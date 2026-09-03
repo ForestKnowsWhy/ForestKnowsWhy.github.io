@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import type { ReactNode } from 'react';
 
 type PageName = 'about' | 'research' | 'cv';
@@ -17,18 +16,18 @@ export function SiteFrame({ active, children }: { active: PageName; children: Re
       </a>
       <header className="site-header">
         <div className="shell header-inner">
-          <Link className="brand" href="/">
+          <a className="brand" href="/">
             Yingwen Tan
-          </Link>
+          </a>
           <nav className="site-nav" aria-label="Main navigation">
             {navItems.map((item) => (
-              <Link
+              <a
                 key={item.page}
                 href={item.href}
                 aria-current={active === item.page ? 'page' : undefined}
               >
                 {item.label}
-              </Link>
+              </a>
             ))}
           </nav>
         </div>

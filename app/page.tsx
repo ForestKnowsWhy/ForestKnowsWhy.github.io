@@ -35,11 +35,6 @@ export default function AboutPage() {
               Business Statistics and Operations Management at the Hong Kong University of
               Science and Technology.
             </p>
-            <p>
-              I received my Ph.D. in Financial Statistics and Risk Management from the
-              Shanghai University of Finance and Economics. I was also a visiting scholar at
-              the Kellogg School of Management, Northwestern University.
-            </p>
           </div>
 
           <div className="interests" aria-labelledby="interests-title">

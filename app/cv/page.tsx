@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Link from 'next/link';
 import { ArrowUpRight, Download } from 'lucide-react';
 import { SiteFrame } from '@/components/site-frame';
 
@@ -44,14 +43,14 @@ export default function CvPage() {
             <p>A concise overview of my academic appointments and education.</p>
           </div>
           <div className="cv-actions">
-            <Link className="primary-link" href="/Yingwen-Tan-CV.pdf" target="_blank">
+            <a className="primary-link" href="/Yingwen-Tan-CV.pdf" target="_blank">
               View PDF CV
               <ArrowUpRight aria-hidden="true" size={16} strokeWidth={1.8} />
-            </Link>
-            <Link className="secondary-link" href="/Yingwen-Tan-CV.pdf" download>
+            </a>
+            <a className="secondary-link" href="/Yingwen-Tan-CV.pdf" download>
               <Download aria-hidden="true" size={15} strokeWidth={1.8} />
               Download
-            </Link>
+            </a>
           </div>
         </header>
 
