@@ -39,8 +39,8 @@ export default function AboutPage() {
           <div className="interests" aria-labelledby="interests-title">
             <h2 id="interests-title">Research interests</h2>
             <p>
-              High-frequency statistics · Financial econometrics · Functional data and time
-              series · Market microstructure
+              High-frequency data · Financial econometrics · Functional time series · Market
+              microstructure
             </p>
           </div>
 

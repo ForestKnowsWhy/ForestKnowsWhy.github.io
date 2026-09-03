@@ -4,8 +4,8 @@ type PageName = 'about' | 'research' | 'cv';
 
 const navItems: Array<{ label: string; href: string; page: PageName }> = [
   { label: 'About', href: '/', page: 'about' },
-  { label: 'Research', href: '/research', page: 'research' },
-  { label: 'CV', href: '/cv', page: 'cv' },
+  { label: 'Research', href: '/research/', page: 'research' },
+  { label: 'CV', href: '/cv/', page: 'cv' },
 ];
 
 export function SiteFrame({ active, children }: { active: PageName; children: ReactNode }) {

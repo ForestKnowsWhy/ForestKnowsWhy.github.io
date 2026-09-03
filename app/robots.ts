@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://yingwen-tan.tanyingwenhaha.chatgpt.site/sitemap.xml',
+    sitemap: 'https://forestknowswhy.github.io/sitemap.xml',
   };
 }

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://yingwen-tan.tanyingwenhaha.chatgpt.site'),
+  metadataBase: new URL('https://forestknowswhy.github.io'),
   title: {
     default: 'Yingwen Tan',
     template: '%s — Yingwen Tan',

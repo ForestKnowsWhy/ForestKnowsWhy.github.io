@@ -1,6 +1,6 @@
 import type { MetadataRoute } from 'next';
 
-const siteUrl = 'https://yingwen-tan.tanyingwenhaha.chatgpt.site';
+const siteUrl = 'https://forestknowswhy.github.io';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
@@ -10,12 +10,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
-      url: `${siteUrl}/research`,
+      url: `${siteUrl}/research/`,
       changeFrequency: 'monthly',
       priority: 0.9,
     },
     {
-      url: `${siteUrl}/cv`,
+      url: `${siteUrl}/cv/`,
       changeFrequency: 'yearly',
       priority: 0.8,
     },
