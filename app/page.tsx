@@ -25,7 +25,6 @@ export default function AboutPage() {
         </div>
 
         <div className="about-copy">
-          <p className="page-label">About</p>
           <h1 id="about-title">Yingwen Tan</h1>
           <p className="role">Postdoctoral Fellow · HKUST</p>
 

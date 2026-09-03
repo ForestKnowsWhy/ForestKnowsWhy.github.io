@@ -253,6 +253,12 @@ h1 {
   font-size: 1.05rem;
 }
 
+.research-page .page-label,
+.research-page .paper-section > h2 {
+  font-size: 1.05rem;
+  letter-spacing: 0.08em;
+}
+
 .paper-section {
   margin-top: 60px;
 }
@@ -348,11 +354,18 @@ h1 {
 .cv-heading {
   max-width: none;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
   gap: 48px;
   padding-bottom: 48px;
   border-bottom: 1px solid var(--text);
+}
+
+.cv-heading h1 {
+  margin-bottom: 0;
+  font-size: 1.35rem;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
 }
 
 .cv-heading > div:first-child {

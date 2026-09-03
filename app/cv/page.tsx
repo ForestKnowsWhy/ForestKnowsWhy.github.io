@@ -38,7 +38,6 @@ export default function CvPage() {
       <div className="shell page cv-page">
         <header className="page-heading cv-heading">
           <div>
-            <p className="page-label">Curriculum vitae</p>
             <h1>Academic trajectory</h1>
           </div>
           <div className="cv-actions">
