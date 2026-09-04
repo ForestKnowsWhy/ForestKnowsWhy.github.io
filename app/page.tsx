@@ -35,14 +35,6 @@ export default function AboutPage() {
             </p>
           </div>
 
-          <div className="interests" aria-labelledby="interests-title">
-            <h2 id="interests-title">Research interests</h2>
-            <p>
-              High-frequency data · Financial econometrics · Functional time series · Market
-              microstructure
-            </p>
-          </div>
-
           <div className="social-links" aria-label="Academic and professional profiles">
             <a href="mailto:tanyingwen@ust.hk" aria-label="Email" title="Email">
               <Mail aria-hidden="true" size={18} strokeWidth={1.7} />
@@ -79,6 +71,14 @@ export default function AboutPage() {
               <span className="sr-only">LinkedIn</span>
             </a>
           </div>
+          <div className="interests" aria-labelledby="interests-title">
+            <h2 id="interests-title">Research interests</h2>
+            <p>
+              High-frequency data · Financial econometrics · Functional time series · Market
+              microstructure
+            </p>
+          </div>
+
           <address className="postal-address">
             Department of Information Systems, Business Statistics and Operations Management
             <br />
