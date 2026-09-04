@@ -5,6 +5,11 @@ const siteUrl = 'https://forestknowswhy.github.io';
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
+      url: `${siteUrl}/teaching/`,
+      changeFrequency: 'yearly',
+      priority: 0.7,
+    },
+    {
       url: siteUrl,
       changeFrequency: 'monthly',
       priority: 1,

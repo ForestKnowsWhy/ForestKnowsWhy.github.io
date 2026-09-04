@@ -78,6 +78,34 @@ a:focus-visible {
   font-family: var(--serif);
   font-size: 1.32rem;
   letter-spacing: -0.02em;
+  white-space: nowrap;
+}
+
+.brand span {
+  margin-left: 0.35em;
+  font-size: 0.9em;
+}
+
+.about-copy > h1 {
+  margin-bottom: 28px;
+}
+
+.postal-address {
+  margin-top: 28px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-style: normal;
+  line-height: 1.7;
+}
+
+.teaching-page h1 {
+  font-size: 2rem;
+}
+
+.teaching-note {
+  color: var(--muted);
 }
 
 .site-nav {
@@ -254,7 +282,7 @@ h1 {
 }
 
 .research-page .paper-section > h2 {
-  font-size: 1.05rem;
+  font-size: 1.5rem;
   letter-spacing: 0.08em;
 }
 
@@ -366,7 +394,7 @@ h1 {
 
 .cv-heading h1 {
   margin-bottom: 0;
-  font-size: 1.35rem;
+  font-size: 2rem;
   line-height: 1.25;
   letter-spacing: -0.02em;
 }
@@ -459,7 +487,9 @@ h1 {
   .header-inner {
     min-height: auto;
     padding: 19px 0 0;
-    align-items: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
   }
 
   .site-nav {

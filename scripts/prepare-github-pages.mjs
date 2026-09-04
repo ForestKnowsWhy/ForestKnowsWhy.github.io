@@ -3,7 +3,7 @@ import { join } from 'node:path';
 
 const outputDir = join(process.cwd(), 'dist', 'client');
 
-for (const route of ['research', 'cv']) {
+for (const route of ['research', 'cv', 'teaching']) {
   const routeDir = join(outputDir, route);
   await mkdir(routeDir, { recursive: true });
   await copyFile(join(outputDir, `${route}.html`), join(routeDir, 'index.html'));
@@ -21,6 +21,7 @@ await writeFile(
   <url><loc>https://forestknowswhy.github.io/</loc></url>
   <url><loc>https://forestknowswhy.github.io/research/</loc></url>
   <url><loc>https://forestknowswhy.github.io/cv/</loc></url>
+  <url><loc>https://forestknowswhy.github.io/teaching/</loc></url>
 </urlset>
 `,
 );

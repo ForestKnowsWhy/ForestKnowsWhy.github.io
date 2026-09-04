@@ -25,8 +25,7 @@ export default function AboutPage() {
         </div>
 
         <div className="about-copy">
-          <h1 id="about-title">Yingwen Tan</h1>
-          <p className="role">Postdoctoral Fellow · HKUST</p>
+          <h1 id="about-title">Welcome</h1>
 
           <div className="plain-prose">
             <p>
@@ -80,6 +79,13 @@ export default function AboutPage() {
               <span className="sr-only">LinkedIn</span>
             </a>
           </div>
+          <address className="postal-address">
+            Department of Information Systems, Business Statistics and Operations Management
+            <br />
+            The Hong Kong University of Science and Technology
+            <br />
+            Clear Water Bay, Kowloon, Hong Kong
+          </address>
         </div>
       </section>
     </SiteFrame>
